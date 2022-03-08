@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title>Union</title>
+	</head>
+	<body>
+
+		<div class="login-form">
+			<form>
+				<div class="form-header">
+					<h1>Union Log In</h1>
+				</div>
+				
+				<div class="form-field">
+					<label for="mail">E-mail</label><br>
+					<input type="email" id="mail" name="mail" placeholder="example@mail.com" required="required">
+					<p id="mail-error"></p>
+				</div>
+				
+				<div class="form-field">
+					<label for="pass">Password</label><br>
+					<input type="password" id="pass" name="pass" placeholder="********" required="required">
+					<p id="pass-error"></p>
+				</div>
+				
+				<div class="form-field">
+					<button class="form-control-button" type="button" value="SignIn" id="SignIn">Sign In</button>
+					<button class="form-control-button" type="button" value="Forgot" id="Forgot">Forgot Pass</button>
+					<button class="form-control-button" type="button" value="SignUp" id="SignUp">Sign Up</button>
+				</div>
+			</form>
+			<div id="sign-in-success"></div>
+			<div id="sign-in-error"></div>
+		</div>
+
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>
+ 
